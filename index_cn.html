@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Developer Toolbox - Chrome Extension Introduction</title>
+    <title>开发者工具箱 - Chrome扩展介绍</title>
     <style>
         * {
             margin: 0;
@@ -176,118 +176,118 @@
 <body>
     <header>
         <div style="position: absolute; top: 1rem; right: 1rem;">
-            <a href="introduction.html" style="color: white; text-decoration: none; background: rgba(255,255,255,0.2); padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; transition: background 0.3s ease;">
-                中文
+            <a href="introduction_en.html" style="color: white; text-decoration: none; background: rgba(255,255,255,0.2); padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; transition: background 0.3s ease;">
+                English
             </a>
         </div>
-        <h1>Developer Toolbox</h1>
-        <p class="subtitle">A powerful Chrome extension that bundles six commonly used developer tools: Timestamp Converter, Base Converter, Hash Calculator, Password Generator, Base64 Encoder/Decoder, and JSON Formatter.</p>
+        <h1>开发者工具箱</h1>
+        <p class="subtitle">一个功能强大的Chrome扩展，集成了6个常用的开发工具：时间戳转换、进制转换、哈希加密、密码生成、Base64编码解码和JSON格式化。</p>
     </header>
 
     <div class="container">
         <section class="features">
             <div class="feature-card">
-                <h3>🕒 Timestamp Converter</h3>
+                <h3>🕒 时间戳转换工具</h3>
                 <ul>
-                    <li>Real-time Unix timestamp display</li>
-                    <li>Convert Unix timestamp to Beijing time</li>
-                    <li>Convert Beijing time to Unix timestamp</li>
-                    <li>Supports seconds and milliseconds</li>
-                    <li>Enter key shortcut supported</li>
+                    <li>实时显示当前Unix时间戳</li>
+                    <li>Unix时间戳转北京时间</li>
+                    <li>北京时间转Unix时间戳</li>
+                    <li>支持秒级和毫秒级时间戳</li>
+                    <li>支持键盘回车快捷操作</li>
                 </ul>
             </div>
 
             <div class="feature-card">
-                <h3>🔢 Base Converter</h3>
+                <h3>🔢 进制转换工具</h3>
                 <ul>
-                    <li>Convert between binary, octal, decimal, and hexadecimal</li>
-                    <li>Automatically filters invalid characters</li>
-                    <li>Realtime conversion with Enter shortcut</li>
-                    <li>Prompts when input contains invalid characters</li>
+                    <li>支持二进制、八进制、十进制、十六进制相互转换</li>
+                    <li>自动过滤无效字符，只保留有效数字</li>
+                    <li>实时转换，支持回车快捷操作</li>
+                    <li>输入包含无效字符时给出提示</li>
                 </ul>
             </div>
 
             <div class="feature-card">
-                <h3>🔐 Hash Calculator</h3>
+                <h3>🔐 哈希加密工具</h3>
                 <ul>
-                    <li>MD5, SHA1, SHA256, and SHA512</li>
-                    <li>Instantly compute all hashes while typing</li>
-                    <li>One-click copy for any hash result</li>
-                    <li>Local computation only, no data sent to servers</li>
+                    <li>支持MD5、SHA1、SHA256、SHA512哈希计算</li>
+                    <li>输入内容即时计算所有哈希值</li>
+                    <li>支持一键复制单个哈希结果</li>
+                    <li>本地计算，不发送数据到服务器</li>
                 </ul>
             </div>
 
             <div class="feature-card">
-                <h3>🔑 Password Generator</h3>
+                <h3>🔑 密码生成器</h3>
                 <ul>
-                    <li>Configurable length from 4 to 128</li>
-                    <li>Choose digits, uppercase, lowercase, and symbols</li>
-                    <li>Generate multiple passwords at once</li>
-                    <li>One-click copy all generated passwords</li>
+                    <li>支持4-128位密码长度设置</li>
+                    <li>可选择包含数字、大写字母、小写字母、特殊符号</li>
+                    <li>支持一次生成多个密码</li>
+                    <li>支持一键复制所有生成的密码</li>
                 </ul>
             </div>
 
             <div class="feature-card">
-                <h3>📝 Base64 Encode/Decode</h3>
+                <h3>📝 Base64编码解码</h3>
                 <ul>
-                    <li>Support both encoding and decoding</li>
-                    <li>Optional multiline text handling</li>
-                    <li>Instant conversion as you type</li>
-                    <li>Quickly clear input and output</li>
+                    <li>支持Base64编码和解码</li>
+                    <li>可选择是否处理多行文本</li>
+                    <li>输入内容即时转换</li>
+                    <li>快速清空输入输出内容</li>
                 </ul>
             </div>
 
             <div class="feature-card">
-                <h3>📋 JSON Formatter</h3>
+                <h3>📋 JSON格式化工具</h3>
                 <ul>
-                    <li>Automatic JSON formatting</li>
-                    <li>Realtime JSON syntax validation</li>
-                    <li>Support minify to a single line</li>
-                    <li>Line numbers in input for easier debugging</li>
-                    <li>Choose 2-space or 4-space indentation</li>
+                    <li>自动格式化JSON内容</li>
+                    <li>实时验证JSON语法正确性</li>
+                    <li>支持JSON压缩为单行</li>
+                    <li>输入区域显示行号便于调试</li>
+                    <li>支持2空格或4空格缩进格式</li>
                 </ul>
             </div>
         </section>
 
         <section class="installation">
-            <h2>Installation</h2>
+            <h2>安装方法</h2>
             <ol class="installation-steps">
-                <li>Download or clone this project to your local machine</li>
-                <li>Open Chrome and go to the Extensions page (<code>chrome://extensions/</code>)</li>
-                <li>Enable "Developer mode"</li>
-                <li>Click "Load unpacked"</li>
-                <li>Select the project folder</li>
-                <li>Done. Click the toolbar icon to start using it</li>
+                <li>下载或克隆此项目到本地</li>
+                <li>打开Chrome浏览器，进入扩展管理页面 (<code>chrome://extensions/</code>)</li>
+                <li>开启"开发者模式"</li>
+                <li>点击"加载已解压的扩展程序"</li>
+                <li>选择项目文件夹</li>
+                <li>扩展安装完成，点击工具栏图标即可使用</li>
             </ol>
         </section>
 
         <section class="tech-features">
             <div class="tech-item">
-                <h4>Modern UI</h4>
-                <p>Modern look and feel with responsive layout</p>
+                <h4>现代化UI</h4>
+                <p>采用现代化的界面设计，支持响应式布局</p>
             </div>
             <div class="tech-item">
-                <h4>Tabbed Navigation</h4>
-                <p>Clear separation of features for easier use</p>
+                <h4>选项卡切换</h4>
+                <p>清晰的功能分区，便于使用</p>
             </div>
             <div class="tech-item">
-                <h4>Input Validation</h4>
-                <p>Robust input validation and error handling</p>
+                <h4>输入验证</h4>
+                <p>完善的输入验证和错误处理</p>
             </div>
             <div class="tech-item">
-                <h4>Keyboard Friendly</h4>
-                <p>Enter key shortcuts supported</p>
+                <h4>键盘支持</h4>
+                <p>支持回车键快捷操作</p>
             </div>
             <div class="tech-item">
-                <h4>No Extra Permissions</h4>
-                <p>No special permissions required, safe and reliable</p>
+                <h4>无权限要求</h4>
+                <p>不需要任何特殊权限，安全可靠</p>
             </div>
         </section>
     </div>
 
     <footer>
-        <p>Developer Toolbox Chrome Extension &copy; 2025</p>
-        <p>Built with pure HTML/CSS/JavaScript, no external dependencies</p>
+        <p>开发者工具箱 Chrome 扩展 &copy; 2025</p>
+        <p>使用纯HTML/CSS/JavaScript开发，无外部依赖</p>
     </footer>
 </body>
 </html>
