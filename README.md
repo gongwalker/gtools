@@ -4,7 +4,7 @@
 👉 插件官网：[https://www.gtools.cn](https://www.gtools.cn)
 
 ## 📮 快速提反馈
-> 仓库顶部「Issues」→「New issue」，按模板填写提交即可，1-3个工作日内回复。
+> 仓库顶部 [「Issues」→「New issue」](https://github.com/gongwalker/gtools/issues)，按模板填写提交即可，1-3个工作日内回复。
 ✅ 问题反馈：附「版本+步骤+截图」，高效定位；
 ✅ 功能建议：说明「需求场景+具体方向」，精准适配。
 
